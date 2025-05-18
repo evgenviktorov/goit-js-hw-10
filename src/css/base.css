@@ -22,11 +22,32 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #fbfbfb;
 }
 
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.ul-index {
+  margin: 100px auto;
+  padding-top: 50px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.a-page {
+  padding-bottom: 50px;
 }
